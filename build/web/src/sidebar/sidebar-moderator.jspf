@@ -1,0 +1,23 @@
+<aside id="sidebar" class="sidebar">
+
+    <div class="d-flex align-items-center justify-content-between">
+        <img src="assets/img/ORION_Logo.png" alt="" width="270" height="180"> 
+    </div><!-- End Logo -->
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link " href="index.jsp">
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+      
+            <li class="nav-item">
+        <a class="nav-link collapsed" href="list-of-application.jsp">
+          <span>List of Applications</span>
+        </a>
+      </li><!-- End List of Administrator Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->

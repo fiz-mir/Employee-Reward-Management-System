@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.card {
+    width: 450px;
+    padding: 40px 60px;
+    background: #000000;
+}
+  
+.card .logo img {
+    width: 100%;
+    height: auto;
+}
+  
+.card .logo {
+    text-align: center;
+    display: block;
+}
+  
+.card .title p {
+    margin-top: 0px;
+}
+  
+.title p {
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    color:#66CECF;
+}
+  
+.input-container {
+    margin-top: 10px;
+}
+  
+.input-container .inputBox input {
+    font-size: 14px;
+    width: 100%;
+    height: 50px;
+    background: #18181880;
+    color: #ffff;
+    outline: none;
+    border: none;
+    margin: 12px 0;
+    padding: 10px;
+}
+  
+.input-container .inputBox input:hover,
+.input-container .inputBox input:focus {
+    background: #18181880;
+    color: #fff;
+}
+  
+.loginBtn {
+    margin-top: 30px;
+}
+  
+.loginBtn button {
+    font-size: 14px;
+    width: 100%;
+    height: 54px;
+    background: #66CECF;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+  
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        max-width: 450px;
+        padding: 20px;
+    }
+  
+    body {
+        height: auto;
+    }
+  
+    .title p {
+        font-size: 18px;
+    }
+  
+    .input-container .inputBox input,
+    .input-container .inputBox input:hover,
+    .input-container .inputBox input:focus {
+        margin: 8px 0;
+        padding: 8px;
+    }
+}  
